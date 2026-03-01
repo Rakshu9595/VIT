@@ -1,0 +1,13 @@
+.brands-logo__items {
+    align-items: center;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.brands-logo__item {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}

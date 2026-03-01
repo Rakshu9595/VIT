@@ -1,0 +1,14 @@
+.faqs-container>.container {
+    padding-left: 1.25rem!important;
+    padding-right: 1.25rem!important
+}
+
+.faqs-container .faqs {
+    margin-bottom: 2.5rem
+}
+
+@media only screen and (min-width: 62rem) {
+    .faqs-container .faqs {
+        margin-bottom:0
+    }
+}

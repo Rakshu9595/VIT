@@ -1,0 +1,86 @@
+.modal {
+    background: none;
+    max-width: none
+}
+
+.modal.testimonial-modal {
+    z-index: 999999
+}
+
+.modal.testimonial-modal .modal-dialog {
+    left: 50%;
+    margin: 0;
+    max-width: 62.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    top: 50%;
+    transform: translate(-50%,-50%)!important
+}
+
+@media only screen and (min-width: 62rem) {
+    .modal.testimonial-modal .modal-dialog {
+        padding:0
+    }
+}
+
+.modal.testimonial-modal .modal-content {
+    position: relative
+}
+
+@media only screen and (min-width: 62rem) {
+    .modal.testimonial-modal .modal-content {
+        transform:none
+    }
+}
+
+.modal.testimonial-modal .modal-body,.modal.testimonial-modal .modal-header {
+    padding: 0
+}
+
+.modal.testimonial-modal .close {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: -1.875rem
+}
+
+@media only screen and (min-width: 62rem) {
+    .modal.testimonial-modal .close {
+        right:-2.5rem;
+        top: 0
+    }
+}
+
+.modal.testimonial-modal .close svg {
+    cursor: pointer
+}
+
+.modal.testimonial-modal .close svg path {
+    stroke: #fff
+}
+
+.modal.testimonial-modal .modal-body .iframe-youtube-local,.modal.testimonial-modal .modal-body .video-internal-local {
+    height: 15.625rem;
+    width: 100%
+}
+
+@media only screen and (min-width: 62rem) {
+    .modal.testimonial-modal .modal-body .iframe-youtube-local,.modal.testimonial-modal .modal-body .video-internal-local {
+        height:28.125rem
+    }
+}
+
+.modal.testimonial-modal .modal-body:has(.no-content) {
+    background-color: #fff;
+    padding: 1.25rem
+}
+
+.modal-backdrop.show {
+    opacity: .9!important;
+    z-index: 99999
+}
+
+.modal-wrap {
+    display: none
+}
